@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{41879D43-83C0-4C9A-AEF4-7C5E6E2A963C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>window10_Group.My.MyApplication</StartupObject>
+    <RootNamespace>window10_Group</RootNamespace>
+    <AssemblyName>window10 Group</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>window10 Group.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>window10 Group.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="calculator.Designer.vb">
+      <DependentUpon>calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Desktop.Designer.vb">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Desktop.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Restart.Designer.vb">
+      <DependentUpon>Restart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Restart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Shutdown.Designer.vb">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Shutdown.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="calculator.resx">
+      <DependentUpon>calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Desktop.resx">
+      <DependentUpon>Desktop.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Restart.resx">
+      <DependentUpon>Restart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Shutdown.resx">
+      <DependentUpon>Shutdown.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boot1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14a26fb4-459d-4e45-af3e-18905740a3b5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <None Include="Resources\calculator icon1.png" />
+    <None Include="Resources\vlc1.jpg" />
+    <None Include="Resources\download1.png" />
+    <None Include="Resources\vlc.jpg" />
+    <None Include="Resources\telegrm.jpg" />
+    <None Include="Resources\folder6.jpg" />
+    <None Include="Resources\potplayer1.png" />
+    <None Include="Resources\potplayer.png" />
+    <None Include="Resources\folder5.jpg" />
+    <None Include="Resources\folder4.jpg" />
+    <None Include="Resources\folder3.jpg" />
+    <None Include="Resources\folder2.jpg" />
+    <None Include="Resources\AOM.jpg" />
+    <None Include="Resources\download %283%291.jpg" />
+    <None Include="Resources\excel1.png" />
+    <None Include="Resources\pdf.png" />
+    <None Include="Resources\shortcut.png" />
+    <None Include="Resources\personalise.png" />
+    <None Include="Resources\display.png" />
+    <None Include="Resources\zip.jpg" />
+    <None Include="Resources\microsoft visio.png" />
+    <None Include="Resources\text doc.png" />
+    <None Include="Resources\publisher.jpg" />
+    <None Include="Resources\microsoft project.jpg" />
+    <None Include="Resources\Contact.png" />
+    <None Include="Resources\excel.png" />
+    <None Include="Resources\PowerPoint1.png" />
+    <None Include="Resources\word1.png" />
+    <None Include="Resources\access1.png" />
+    <None Include="Resources\folder1.jpg" />
+    <None Include="Resources\netbeans-6-5.png" />
+    <None Include="Resources\calculator icon.png" />
+    <None Include="Resources\word.png" />
+    <None Include="Resources\PowerPoint.png" />
+    <None Include="Resources\240px-Adobe_Audition_CC_icon.svg1.png" />
+    <None Include="Resources\240px-Adobe_Audition_CC_icon.svg.png" />
+    <None Include="Resources\adobe photoshop1.jpg" />
+    <None Include="Resources\Download-Internet-Explorer-Offline-Installers-nztow1o3pu1fy4hccp6fegq69mhdwcbikkatp63ape.png" />
+    <None Include="Resources\download %283%29.jpg" />
+    <None Include="Resources\visual studio.jpg" />
+    <None Include="Resources\netbeans-ide-logo-icon.jpg" />
+    <None Include="Resources\folder.jpg" />
+    <None Include="Resources\IMG-2019.png.jpg" />
+    <None Include="Resources\settings.png" />
+    <None Include="Resources\notepad.jpg" />
+    <None Include="Resources\download.png" />
+    <None Include="Resources\access.png" />
+    <None Include="Resources\premiere.png" />
+    <None Include="Resources\adobe photoshop.jpg" />
+    <None Include="Resources\gif-bbm-72.gif" />
+    <None Include="Resources\gif-bbm-71.gif" />
+    <None Include="Resources\Recycle-Bin icon.jpg" />
+    <None Include="Resources\control panel.jpg" />
+    <None Include="Resources\network icon.jpg" />
+    <None Include="Resources\pc.jpg" />
+    <None Include="Resources\download %287%29.jpg" />
+    <None Include="Resources\images %281%29.jpg" />
+    <None Include="Resources\download %284%29.jpg" />
+    <None Include="Resources\gif-bbm-7.gif" />
+    <None Include="Resources\big-ajax-loader2.gif" />
+    <None Include="Resources\big-ajax-loader1.gif" />
+    <None Include="Resources\big-ajax-loader.gif" />
+    <None Include="Resources\shutdown1.jpg" />
+    <None Include="Resources\bd9a6ad0-bfb4-460d-889a-a435cb74fed11.jpg" />
+    <None Include="Resources\bd9a6ad0-bfb4-460d-889a-a435cb74fed1.jpg" />
+    <None Include="Resources\shutdown.jpg" />
+    <None Include="Resources\shutdown.png" />
+    <None Include="Resources\desktop image.jpg" />
+    <None Include="Resources\55.jpg" />
+    <None Include="Resources\lockscreen.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

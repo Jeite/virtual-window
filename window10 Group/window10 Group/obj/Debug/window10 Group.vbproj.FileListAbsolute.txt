@@ -1,0 +1,15 @@
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\bin\Debug\window10 Group.exe.config
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\bin\Debug\window10 Group.exe
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\bin\Debug\window10 Group.pdb
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\bin\Debug\window10 Group.xml
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10_Group.Form1.resources
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10_Group.Login.resources
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10_Group.Resources.resources
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10 Group.vbproj.GenerateResource.Cache
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10 Group.exe
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10 Group.xml
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10 Group.pdb
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10_Group.Desktop.resources
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10_Group.Shutdown.resources
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10_Group.Restart.resources
+C:\Users\C.Qani Jeyte\Desktop\window10 Group\window10 Group\obj\Debug\window10_Group.calculator.resources
